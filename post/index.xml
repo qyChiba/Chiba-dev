@@ -794,7 +794,11 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;在执行sql返回结果的时候如果是查询就用&lt;code&gt;executeQuery()&lt;/code&gt;;如果是增删改就用&lt;code&gt;executeUpdate()&lt;/code&gt;;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;在执行sql返回结果的时候：&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果是查询就用&lt;code&gt;executeQuery()&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果是增删改就用&lt;code&gt;executeUpdate()&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
 </description>
         </item>
         <item>

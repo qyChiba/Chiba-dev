@@ -7,7 +7,16 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Chiba</copyright>
-        <lastBuildDate>Sun, 24 Aug 2025 16:43:14 +0800</lastBuildDate><atom:link href="https://qyChiba.github.io/Chiba-dev/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 25 Aug 2025 14:25:45 +0800</lastBuildDate><atom:link href="https://qyChiba.github.io/Chiba-dev/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>JDBCBook</title>
+        <link>https://qyChiba.github.io/Chiba-dev/p/jdbcbook/</link>
+        <pubDate>Mon, 25 Aug 2025 14:25:45 +0800</pubDate>
+        
+        <guid>https://qyChiba.github.io/Chiba-dev/p/jdbcbook/</guid>
+        <description>&lt;h1 id=&#34;jdbc常见问题&#34;&gt;JDBC常见问题
+&lt;/h1&gt;</description>
+        </item>
+        <item>
         <title>Git与Hugo工作流程</title>
         <link>https://qyChiba.github.io/Chiba-dev/p/git%E4%B8%8Ehugo%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B/</link>
         <pubDate>Sun, 24 Aug 2025 16:43:14 +0800</pubDate>

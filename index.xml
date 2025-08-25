@@ -380,7 +380,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;专业术语&amp;ndash;ORM：&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;JDBC全流程：注册驱动&amp;mdash;&amp;gt;获取连接&amp;mdash;&amp;gt;预编译获取PreparedStatement对象&amp;mdash;&amp;gt;编写并执行sql语句&amp;mdash;&amp;gt;遍历结果集&amp;mdash;&amp;gt;资源释放&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;案例curd&#34;&gt;案例——CURD
+&lt;h2 id=&#34;案例curd&#34;&gt;案例&amp;mdash;&amp;gt;CURD
 &lt;/h2&gt;&lt;h3 id=&#34;查询单行单列&#34;&gt;查询&amp;ndash;&amp;gt;单行单列：
 &lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -442,78 +442,359 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>Chinese Test</title>
-        <link>https://qyChiba.github.io/Chiba-dev/p/test-chinese/</link>
-        <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://qyChiba.github.io/Chiba-dev/p/test-chinese/</guid>
-        <description>&lt;img src="https://qyChiba.github.io/Chiba-dev/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Chinese Test" /&gt;&lt;h2 id=&#34;正文测试&#34;&gt;正文测试
-&lt;/h2&gt;&lt;p&gt;而这些并不是完全重要，更加重要的问题是， 带着这些问题，我们来审视一下学生会退会。 既然如何， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 我们不得不面对一个非常尴尬的事实，那就是， 可是，即使是这样，学生会退会的出现仍然代表了一定的意义。 学生会退会，发生了会如何，不发生又会如何。 经过上述讨论， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 学生会退会，到底应该如何实现。 这样看来， 在这种困难的抉择下，本人思来想去，寝食难安。 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 就我个人来说，学生会退会对我的意义，不能不说非常重大。 莎士比亚曾经提到过，人的一生是短的，但如果卑劣地过这一生，就太长了。这似乎解答了我的疑惑。 莫扎特说过一句富有哲理的话，谁和我一样用功，谁就会和我一样成功。这启发了我， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 学生会退会，到底应该如何实现。 一般来说， 从这个角度来看， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 在这种困难的抉择下，本人思来想去，寝食难安。 了解清楚学生会退会到底是一种怎么样的存在，是解决一切问题的关键。 一般来说， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 问题的关键究竟为何？ 而这些并不是完全重要，更加重要的问题是。&lt;/p&gt;
-&lt;p&gt;奥斯特洛夫斯基曾经说过，共同的事业，共同的斗争，可以使人们产生忍受一切的力量。　带着这句话，我们还要更加慎重的审视这个问题： 一般来讲，我们都必须务必慎重的考虑考虑。 既然如此， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 带着这些问题，我们来审视一下学生会退会。 我认为， 我认为， 在这种困难的抉择下，本人思来想去，寝食难安。 问题的关键究竟为何？ 每个人都不得不面对这些问题。 在面对这种问题时， 要想清楚，学生会退会，到底是一种怎么样的存在。 我认为， 既然如此， 每个人都不得不面对这些问题。 在面对这种问题时， 那么， 我认为， 学生会退会因何而发生。&lt;/p&gt;
-&lt;h2 id=&#34;引用&#34;&gt;引用
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;思念是最暖的忧伤像一双翅膀&lt;br&gt;
-让我停不了飞不远在过往游荡&lt;br&gt;
-不告而别的你 就算为了我着想&lt;br&gt;
-这么沉痛的呵护 我怎么能翱翔&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=3aypp_YlBzI&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;最暖的憂傷 - 田馥甄&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;图片&#34;&gt;图片
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/Chiba-dev/florian-klauer-nptLmg6jqDo-unsplash.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Photo by Florian Klauer on Unsplash&#34;
-	
-	
-&gt;  &lt;img src=&#34;https://qyChiba.github.io/Chiba-dev/luca-bravo-alS7ewQ41M8-unsplash.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Photo by Luca Bravo on Unsplash&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/Chiba-dev/helena-hertz-wWZzXlDpMog-unsplash.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Photo by Helena Hertz on Unsplash&#34;
-	
-	
-&gt;  &lt;img src=&#34;https://qyChiba.github.io/Chiba-dev/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Photo by Hudai Gayiran on Unsplash&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;/div&gt;&lt;h3 id=&#34;查询单行多列&#34;&gt;查询&amp;ndash;&amp;gt;单行多列：
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;Photo by Florian Klauer on Unsplash&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;florian-klauer-nptLmg6jqDo-unsplash.jpg&lt;/span&gt;)  ![&lt;span class=&#34;nt&#34;&gt;Photo by Luca Bravo on Unsplash&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;luca-bravo-alS7ewQ41M8-unsplash.jpg&lt;/span&gt;) 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;Photo by Helena Hertz on Unsplash&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;helena-hertz-wWZzXlDpMog-unsplash.jpg&lt;/span&gt;)  ![&lt;span class=&#34;nt&#34;&gt;Photo by Hudai Gayiran on Unsplash&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;package&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;com.Chiba.base&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;org.junit.Test&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.Connection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.DriverManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.PreparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.ResultSet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;JDBCOperation&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;@Test&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;testQuerySingleRow&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;throws&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Exception&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//注册驱动&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Class&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;forName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;com.mysql.cj.jdbc.Driver&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//获取连接(url、name、password)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Connection&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;connection&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;DriverManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getConnection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;jdbc:mysql://localhost:3306/jdbcdemo&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;root&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;mhh.0608&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//预编译获取preparedStatement对象&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PreparedStatement&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;connection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;prepareStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;select emp_id,emp_name,emp_salary,emp_age from t_emp where emp_id=?&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//给占位符赋值然后执行并获取结果集&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setInt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ResultSet&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resultSet&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;executeQuery&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//结果集遍历&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resultSet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()){&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resultSet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getInt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;emp_id&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resultSet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getString&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;emp_name&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Double&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empSalary&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resultSet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getdouble&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;emp_salary&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empAge&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resultSet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getInt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;emp_age&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;out&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;\t&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;\t&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empSalary&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;\t&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empAge&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//关闭资源&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resultSet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;close&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;close&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;connection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;close&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;相册语法来自 &lt;a class=&#34;link&#34; href=&#34;https://typlog.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Typlog&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;h3 id=&#34;查询多行多列&#34;&gt;查询&amp;ndash;&amp;gt;多行多列:
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;package&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;com.Chiba.base&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;org.junit.Test&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.Connection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.DriverManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.PreparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.ResultSet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;JDBCOperation&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;@Test&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;testQueryMoreRow&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;throws&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Exception&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//        1.注册驱动&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Class&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;forName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;com.mysql.cj.jdbc.Driver&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//        2.获取连接(url、name、password)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Connection&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;connection&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;DriverManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getConnection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;jdbc:mysql:///jdbcdemo&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;root&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;mhh.0608&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//        3.预编译获得preparedStatement对象&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PreparedStatement&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;connection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;prepareStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;select emp_id,emp_name,emp_salary,emp_age from t_emp where emp_age&amp;gt;?&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//       4.为占位符赋值才能执行sql&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setInt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ResultSet&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resultSet&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;executeQuery&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//        5.遍历&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resultSet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empId&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resultSet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getInt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;emp_id&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empName&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resultSet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getString&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;emp_name&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;double&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empSalary&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resultSet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getDouble&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;emp_salary&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empAge&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resultSet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getInt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;emp_age&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;out&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empId&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;\t&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empName&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;\t&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empSalary&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;\t&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empAge&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//        6.资源释放&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resultSet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;close&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;close&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;connection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;close&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;增加数据&#34;&gt;增加数据:
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;package&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;com.Chiba.base&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;org.junit.Test&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.Connection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.DriverManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.PreparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.ResultSet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;JDBCOperation&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;@Test&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;testInsert&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;throws&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Exception&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//        1.注册驱动&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Class&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;forName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;com.mysql.cj.jdbc.Driver&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//        2.获取连接(url、name、password)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Connection&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;connection&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;DriverManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getConnection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;jdbc:mysql:///jdbcdemo&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;root&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;mhh.0608&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//        3.预编译获取preparedStatement对象&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PreparedStatement&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;connection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;prepareStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;insert into t_emp(emp_name,emp_salary,emp_age)values(?,?,?)&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setString&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Mike&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setDouble&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;9999&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;99&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setInt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;res&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;executeUpdate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//        根据受影响行数判断true或false；&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;res&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;out&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;True&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;else&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;out&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;False&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;close&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;connection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;close&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;更改数据&#34;&gt;更改数据:
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;package&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;com.Chiba.base&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;org.junit.Test&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.Connection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.DriverManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.PreparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.ResultSet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;JDBCOperation&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;@Test&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;     &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;testUpdate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;throws&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Exception&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Class&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;forName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;com.mysql.cj.jdbc.Driver&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Connection&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;connection&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;DriverManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getConnection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;jdbc:mysql:///jdbcdemo&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;root&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;mhh.0608&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PreparedStatement&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;connection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;prepareStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;  update t_emp set emp_salary=? where emp_id=?;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setDouble&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;10000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setInt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;res&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;executeUpdate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;res&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;out&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;True&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;else&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;out&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;False&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//        关闭资源&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;close&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;connection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;close&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;删除数据&#34;&gt;删除数据：
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;package&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;com.Chiba.base&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;org.junit.Test&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.Connection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.DriverManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.PreparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;java.sql.ResultSet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;JDBCOperation&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;@Test&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;testDelete&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;throws&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Exception&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//        注册驱动&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Class&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;forName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;com.mysql.cj.jdbc.Driver&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//        获取连接&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Connection&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;connection&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;DriverManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getConnection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;jdbc:mysql://localhost:3306/jdbcdemo&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;root&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;mhh.0608&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//        预编译获取preparedStatement对象&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PreparedStatement&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;connection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;prepareStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;delete  from t_emp where emp_id=?&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//        给占位符赋值，执行sql语句获取结果集&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setInt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;result&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;executeUpdate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;result&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;out&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;True&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;else&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;out&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;False&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//        关闭资源&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;preparedStatement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;close&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;connection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;close&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;在执行sql返回结果的时候如果是查询就用&lt;code&gt;executeQuery()&lt;/code&gt;;如果是增删改就用&lt;code&gt;executeUpdate()&lt;/code&gt;;&lt;/p&gt;&lt;/blockquote&gt;
 </description>
         </item>
         <item>

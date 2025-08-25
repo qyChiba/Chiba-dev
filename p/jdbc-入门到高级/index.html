@@ -236,9 +236,14 @@
         <li><a href="#25resultset">2.5ResultSet</a></li>
       </ol>
     </li>
-    <li><a href="#案例curd">案例——CURD</a>
+    <li><a href="#案例curd">案例&mdash;&gt;CURD</a>
       <ol>
         <li><a href="#查询单行单列">查询&ndash;&gt;单行单列：</a></li>
+        <li><a href="#查询单行多列">查询&ndash;&gt;单行多列：</a></li>
+        <li><a href="#查询多行多列">查询&ndash;&gt;多行多列:</a></li>
+        <li><a href="#增加数据">增加数据:</a></li>
+        <li><a href="#更改数据">更改数据:</a></li>
+        <li><a href="#删除数据">删除数据：</a></li>
       </ol>
     </li>
   </ol>
@@ -587,7 +592,7 @@
 <blockquote>
 <p>专业术语&ndash;ORM：</p></blockquote>
 <p><strong>JDBC全流程：注册驱动&mdash;&gt;获取连接&mdash;&gt;预编译获取PreparedStatement对象&mdash;&gt;编写并执行sql语句&mdash;&gt;遍历结果集&mdash;&gt;资源释放</strong></p>
-<h2 id="案例curd">案例——CURD
+<h2 id="案例curd">案例&mdash;&gt;CURD
 </h2><h3 id="查询单行单列">查询&ndash;&gt;单行单列：
 </h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -649,7 +654,360 @@
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
+</div><h3 id="查询单行多列">查询&ndash;&gt;单行多列：
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.Chiba.base</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">org.junit.Test</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.Connection</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.DriverManager</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.PreparedStatement</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.ResultSet</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">JDBCOperation</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nd">@Test</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">testQuerySingleRow</span><span class="p">()</span><span class="w"> </span><span class="kd">throws</span><span class="w"> </span><span class="n">Exception</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">//注册驱动</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Class</span><span class="p">.</span><span class="na">forName</span><span class="p">(</span><span class="s">&#34;com.mysql.cj.jdbc.Driver&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">//获取连接(url、name、password)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Connection</span><span class="w"> </span><span class="n">connection</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">DriverManager</span><span class="p">.</span><span class="na">getConnection</span><span class="p">(</span><span class="s">&#34;jdbc:mysql://localhost:3306/jdbcdemo&#34;</span><span class="p">,</span><span class="s">&#34;root&#34;</span><span class="p">,</span><span class="s">&#34;mhh.0608&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">//预编译获取preparedStatement对象</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">PreparedStatement</span><span class="w"> </span><span class="n">preparedStatement</span><span class="o">=</span><span class="n">connection</span><span class="p">.</span><span class="na">prepareStatement</span><span class="p">(</span><span class="s">&#34;select emp_id,emp_name,emp_salary,emp_age from t_emp where emp_id=?&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">//给占位符赋值然后执行并获取结果集</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">setInt</span><span class="p">(</span><span class="n">1</span><span class="p">,</span><span class="n">4</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">ResultSet</span><span class="w"> </span><span class="n">resultSet</span><span class="o">=</span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">executeQuery</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">//结果集遍历</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">while</span><span class="p">(</span><span class="n">resultSet</span><span class="p">.</span><span class="na">next</span><span class="p">()){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">empId</span><span class="o">=</span><span class="n">resultSet</span><span class="p">.</span><span class="na">getInt</span><span class="p">(</span><span class="s">&#34;emp_id&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">empName</span><span class="o">=</span><span class="n">resultSet</span><span class="p">.</span><span class="na">getString</span><span class="p">(</span><span class="s">&#34;emp_name&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">Double</span><span class="w"> </span><span class="n">empSalary</span><span class="o">=</span><span class="n">resultSet</span><span class="p">.</span><span class="na">getdouble</span><span class="p">(</span><span class="s">&#34;emp_salary&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">empAge</span><span class="o">=</span><span class="n">resultSet</span><span class="p">.</span><span class="na">getInt</span><span class="p">(</span><span class="s">&#34;emp_age&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">empId</span><span class="o">+</span><span class="s">&#34;\t&#34;</span><span class="o">+</span><span class="n">empName</span><span class="o">+</span><span class="s">&#34;\t&#34;</span><span class="o">+</span><span class="n">empSalary</span><span class="o">+</span><span class="s">&#34;\t&#34;</span><span class="o">+</span><span class="n">empAge</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">//关闭资源</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">resultSet</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">connection</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
 </div>
+</div><h3 id="查询多行多列">查询&ndash;&gt;多行多列:
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.Chiba.base</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">org.junit.Test</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.Connection</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.DriverManager</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.PreparedStatement</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.ResultSet</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">JDBCOperation</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nd">@Test</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">testQueryMoreRow</span><span class="p">()</span><span class="w"> </span><span class="kd">throws</span><span class="w"> </span><span class="n">Exception</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//        1.注册驱动</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">Class</span><span class="p">.</span><span class="na">forName</span><span class="p">(</span><span class="s">&#34;com.mysql.cj.jdbc.Driver&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//        2.获取连接(url、name、password)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">Connection</span><span class="w"> </span><span class="n">connection</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">DriverManager</span><span class="p">.</span><span class="na">getConnection</span><span class="p">(</span><span class="s">&#34;jdbc:mysql:///jdbcdemo&#34;</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;root&#34;</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;mhh.0608&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//        3.预编译获得preparedStatement对象</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">PreparedStatement</span><span class="w"> </span><span class="n">preparedStatement</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">connection</span><span class="p">.</span><span class="na">prepareStatement</span><span class="p">(</span><span class="s">&#34;select emp_id,emp_name,emp_salary,emp_age from t_emp where emp_age&gt;?&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//       4.为占位符赋值才能执行sql</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">setInt</span><span class="p">(</span><span class="n">1</span><span class="p">,</span><span class="w"> </span><span class="n">25</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">ResultSet</span><span class="w"> </span><span class="n">resultSet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">executeQuery</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//        5.遍历</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">resultSet</span><span class="p">.</span><span class="na">next</span><span class="p">())</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="kt">int</span><span class="w"> </span><span class="n">empId</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">resultSet</span><span class="p">.</span><span class="na">getInt</span><span class="p">(</span><span class="s">&#34;emp_id&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">String</span><span class="w"> </span><span class="n">empName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">resultSet</span><span class="p">.</span><span class="na">getString</span><span class="p">(</span><span class="s">&#34;emp_name&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="kt">double</span><span class="w"> </span><span class="n">empSalary</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">resultSet</span><span class="p">.</span><span class="na">getDouble</span><span class="p">(</span><span class="s">&#34;emp_salary&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="kt">int</span><span class="w"> </span><span class="n">empAge</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">resultSet</span><span class="p">.</span><span class="na">getInt</span><span class="p">(</span><span class="s">&#34;emp_age&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">empId</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&#34;\t&#34;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">empName</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&#34;\t&#34;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">empSalary</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&#34;\t&#34;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">empAge</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//        6.资源释放</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">resultSet</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">connection</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="增加数据">增加数据:
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.Chiba.base</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">org.junit.Test</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.Connection</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.DriverManager</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.PreparedStatement</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.ResultSet</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">JDBCOperation</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nd">@Test</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">testInsert</span><span class="p">()</span><span class="w"> </span><span class="kd">throws</span><span class="w"> </span><span class="n">Exception</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//        1.注册驱动</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">Class</span><span class="p">.</span><span class="na">forName</span><span class="p">(</span><span class="s">&#34;com.mysql.cj.jdbc.Driver&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//        2.获取连接(url、name、password)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">Connection</span><span class="w"> </span><span class="n">connection</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">DriverManager</span><span class="p">.</span><span class="na">getConnection</span><span class="p">(</span><span class="s">&#34;jdbc:mysql:///jdbcdemo&#34;</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;root&#34;</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;mhh.0608&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//        3.预编译获取preparedStatement对象</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">PreparedStatement</span><span class="w"> </span><span class="n">preparedStatement</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">connection</span><span class="p">.</span><span class="na">prepareStatement</span><span class="p">(</span><span class="s">&#34;insert into t_emp(emp_name,emp_salary,emp_age)values(?,?,?)&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">setString</span><span class="p">(</span><span class="n">1</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;Mike&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">setDouble</span><span class="p">(</span><span class="n">2</span><span class="p">,</span><span class="w"> </span><span class="n">9999</span><span class="p">.</span><span class="na">99</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">setInt</span><span class="p">(</span><span class="n">3</span><span class="p">,</span><span class="w"> </span><span class="n">25</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">res</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">executeUpdate</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//        根据受影响行数判断true或false；</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">res</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;True&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;False&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">connection</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="更改数据">更改数据:
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.Chiba.base</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">org.junit.Test</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.Connection</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.DriverManager</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.PreparedStatement</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.ResultSet</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">JDBCOperation</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nd">@Test</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">testUpdate</span><span class="p">()</span><span class="w"> </span><span class="kd">throws</span><span class="w"> </span><span class="n">Exception</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">Class</span><span class="p">.</span><span class="na">forName</span><span class="p">(</span><span class="s">&#34;com.mysql.cj.jdbc.Driver&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">Connection</span><span class="w"> </span><span class="n">connection</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">DriverManager</span><span class="p">.</span><span class="na">getConnection</span><span class="p">(</span><span class="s">&#34;jdbc:mysql:///jdbcdemo&#34;</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;root&#34;</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;mhh.0608&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">PreparedStatement</span><span class="w"> </span><span class="n">preparedStatement</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">connection</span><span class="p">.</span><span class="na">prepareStatement</span><span class="p">(</span><span class="s">&#34;  update t_emp set emp_salary=? where emp_id=?;&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">setDouble</span><span class="p">(</span><span class="n">1</span><span class="p">,</span><span class="w"> </span><span class="n">10000</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">setInt</span><span class="p">(</span><span class="n">2</span><span class="p">,</span><span class="w"> </span><span class="n">6</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">res</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">executeUpdate</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">res</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;True&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;False&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//        关闭资源</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">connection</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="删除数据">删除数据：
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.Chiba.base</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">org.junit.Test</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.Connection</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.DriverManager</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.PreparedStatement</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.ResultSet</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">JDBCOperation</span><span class="w"> </span><span class="p">{</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nd">@Test</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">testDelete</span><span class="p">()</span><span class="w"> </span><span class="kd">throws</span><span class="w"> </span><span class="n">Exception</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//        注册驱动</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">Class</span><span class="p">.</span><span class="na">forName</span><span class="p">(</span><span class="s">&#34;com.mysql.cj.jdbc.Driver&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//        获取连接</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">Connection</span><span class="w"> </span><span class="n">connection</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">DriverManager</span><span class="p">.</span><span class="na">getConnection</span><span class="p">(</span><span class="s">&#34;jdbc:mysql://localhost:3306/jdbcdemo&#34;</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;root&#34;</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;mhh.0608&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//        预编译获取preparedStatement对象</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">PreparedStatement</span><span class="w"> </span><span class="n">preparedStatement</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">connection</span><span class="p">.</span><span class="na">prepareStatement</span><span class="p">(</span><span class="s">&#34;delete  from t_emp where emp_id=?&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//        给占位符赋值，执行sql语句获取结果集</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">setInt</span><span class="p">(</span><span class="n">1</span><span class="p">,</span><span class="w"> </span><span class="n">7</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">executeUpdate</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">result</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;True&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;False&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//        关闭资源</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">connection</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>在执行sql返回结果的时候如果是查询就用<code>executeQuery()</code>;如果是增删改就用<code>executeUpdate()</code>;</p></blockquote>
+
 </section>
 
 

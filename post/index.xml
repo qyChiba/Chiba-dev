@@ -7,19 +7,28 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Chiba</copyright>
-        <lastBuildDate>Mon, 25 Aug 2025 14:25:45 +0800</lastBuildDate><atom:link href="https://qyChiba.github.io/Chiba-dev/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>JDBCBook</title>
-        <link>https://qyChiba.github.io/Chiba-dev/p/jdbcbook/</link>
+        <lastBuildDate>Mon, 25 Aug 2025 15:29:50 +0800</lastBuildDate><atom:link href="https://qyChiba.github.io/Chiba-dev/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>JDBC进阶</title>
+        <link>https://qyChiba.github.io/Chiba-dev/p/jdbc%E8%BF%9B%E9%98%B6/</link>
+        <pubDate>Mon, 25 Aug 2025 15:29:50 +0800</pubDate>
+        
+        <guid>https://qyChiba.github.io/Chiba-dev/p/jdbc%E8%BF%9B%E9%98%B6/</guid>
+        <description>&lt;img src="https://qyChiba.github.io/Chiba-dev/p/jdbc%E8%BF%9B%E9%98%B6/preview.jpg" alt="Featured image of post JDBC进阶" /&gt;&lt;h1 id=&#34;jdbc-进阶&#34;&gt;JDBC-进阶
+&lt;/h1&gt;</description>
+        </item>
+        <item>
+        <title>JDBC常见问题</title>
+        <link>https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 25 Aug 2025 14:25:45 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/Chiba-dev/p/jdbcbook/</guid>
-        <description>&lt;img src="https://qyChiba.github.io/Chiba-dev/p/jdbcbook/preview.jpg" alt="Featured image of post JDBCBook" /&gt;&lt;h1 id=&#34;jdbc常见问题&#34;&gt;JDBC常见问题
+        <guid>https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</guid>
+        <description>&lt;img src="https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/preview.jpg" alt="Featured image of post JDBC常见问题" /&gt;&lt;h1 id=&#34;jdbc常见问题&#34;&gt;JDBC常见问题
 &lt;/h1&gt;&lt;h2 id=&#34;1资源的管理&#34;&gt;1.资源的管理
 &lt;/h2&gt;&lt;p&gt;在使用jdbc的相关资源时，比如Connection、PreparedStatement、ResultSet，使用完毕后，要及时关闭这些资源以&lt;code&gt;释放数据库服务器资源&lt;/code&gt;和&lt;code&gt;避免内存泄露&lt;/code&gt;等问题。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbcbook/One.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/One.png&#34;
 	width=&#34;1196&#34;
 	height=&#34;548&#34;
-	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbcbook/One_hu_fa773371a2df5bc1.png 480w, https://qyChiba.github.io/Chiba-dev/p/jdbcbook/One_hu_8b70772aecbb8827.png 1024w&#34;
+	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/One_hu_fa773371a2df5bc1.png 480w, https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/One_hu_8b70772aecbb8827.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;项目Logo&#34;
@@ -35,10 +44,10 @@
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;java.sql.SQLSyntaxErrorException&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbcbook/SQLYJ.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLYJ.png&#34;
 	width=&#34;620&#34;
 	height=&#34;312&#34;
-	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbcbook/SQLYJ_hu_fca3d3dc41d3d7e.png 480w, https://qyChiba.github.io/Chiba-dev/p/jdbcbook/SQLYJ_hu_db94bae94a04fe8d.png 1024w&#34;
+	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLYJ_hu_fca3d3dc41d3d7e.png 480w, https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLYJ_hu_db94bae94a04fe8d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;项目Logo&#34;
@@ -59,10 +68,10 @@
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;java.sql.SQLException: No value specified for parameter 1&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbcbook/SQLCS.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLCS.png&#34;
 	width=&#34;661&#34;
 	height=&#34;204&#34;
-	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbcbook/SQLCS_hu_cc131d90fcb9af12.png 480w, https://qyChiba.github.io/Chiba-dev/p/jdbcbook/SQLCS_hu_2943a2d5fac6c099.png 1024w&#34;
+	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLCS_hu_cc131d90fcb9af12.png 480w, https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLCS_hu_2943a2d5fac6c099.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;项目Logo&#34;
@@ -76,10 +85,10 @@
 &lt;blockquote&gt;
 &lt;p&gt;在用预编译SQL语句时，如果有&lt;code&gt;?占位符&lt;/code&gt;，要为每一个占位符赋值，否则报该错误。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;23-用户名或密码错误&#34;&gt;2.3 用户名或密码错误
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbcbook/SQLYM.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLYM.png&#34;
 	width=&#34;644&#34;
 	height=&#34;148&#34;
-	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbcbook/SQLYM_hu_246fb92c245ff24c.png 480w, https://qyChiba.github.io/Chiba-dev/p/jdbcbook/SQLYM_hu_3152cc16fb938fdf.png 1024w&#34;
+	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLYM_hu_246fb92c245ff24c.png 480w, https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLYM_hu_3152cc16fb938fdf.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;项目Logo&#34;
@@ -96,10 +105,10 @@
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;com.mysql.cj.jdbc.exceptions.CommunicationsException:Communications link failure&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;项目logo&#34;&gt;&lt;img src=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbcbook/SQLTX.png&#34;
+&lt;h3 id=&#34;项目logo&#34;&gt;&lt;img src=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLTX.png&#34;
 	width=&#34;662&#34;
 	height=&#34;153&#34;
-	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbcbook/SQLTX_hu_6932a26b855fbbfd.png 480w, https://qyChiba.github.io/Chiba-dev/p/jdbcbook/SQLTX_hu_b4b400bb8e3e7ff9.png 1024w&#34;
+	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLTX_hu_6932a26b855fbbfd.png 480w, https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLTX_hu_b4b400bb8e3e7ff9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;项目Logo&#34;

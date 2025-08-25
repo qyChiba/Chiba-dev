@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="JDBC常见问题 ">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="JDBC常见问题 1.资源的管理 在使用jdbc的相关资源时，比如Connection、PreparedStatement、ResultSet，使用完毕后，要及时关闭这些资源以释放数据库服务器资源和避免内存泄露等问题。\n">
 <title>JDBCBook</title>
 
 <link rel='canonical' href='https://qyChiba.github.io/Chiba-dev/p/jdbcbook/'>
 
 <link rel="stylesheet" href="/Chiba-dev/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="JDBCBook">
-<meta property='og:description' content="JDBC常见问题 ">
+<meta property='og:description' content="JDBC常见问题 1.资源的管理 在使用jdbc的相关资源时，比如Connection、PreparedStatement、ResultSet，使用完毕后，要及时关闭这些资源以释放数据库服务器资源和避免内存泄露等问题。\n">
 <meta property='og:url' content='https://qyChiba.github.io/Chiba-dev/p/jdbcbook/'>
 <meta property='og:site_name' content='千叶——AcMiner'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-08-25T14:25:45&#43;08:00'/><meta property='article:modified_time' content='2025-08-25T14:25:45&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-08-25T14:25:45&#43;08:00'/><meta property='article:modified_time' content='2025-08-25T14:25:45&#43;08:00'/><meta property='og:image' content='https://qyChiba.github.io/Chiba-dev/p/jdbcbook/preview.jpg' />
 <meta name="twitter:title" content="JDBCBook">
-<meta name="twitter:description" content="JDBC常见问题 ">
+<meta name="twitter:description" content="JDBC常见问题 1.资源的管理 在使用jdbc的相关资源时，比如Connection、PreparedStatement、ResultSet，使用完毕后，要及时关闭这些资源以释放数据库服务器资源和避免内存泄露等问题。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://qyChiba.github.io/Chiba-dev/p/jdbcbook/preview.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -203,11 +204,63 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#1资源的管理">1.资源的管理</a></li>
+    <li><a href="#2sql问题">2.SQL问题</a>
+      <ol>
+        <li><a href="#21-sql语句问题">2.1 SQL语句问题：</a></li>
+        <li><a href="#22-sql语句未设置参数问题">2.2 SQL语句未设置参数问题</a></li>
+        <li><a href="#23-用户名或密码错误">2.3 用户名或密码错误</a></li>
+        <li><a href="#24通信异常">2.4通信异常</a></li>
+        <li><a href="#项目logo"><img src="SQLTX.png" alt="项目Logo" title="点击查看详情"></a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
-    <article class="main-article">
+    <article class="has-image main-article">
     <header class="article-header">
+        <div class="article-image">
+            <a href="/Chiba-dev/p/jdbcbook/">
+                <img src="/Chiba-dev/p/jdbcbook/preview_hu_3af53af9573adf39.jpg"
+                        srcset="/Chiba-dev/p/jdbcbook/preview_hu_3af53af9573adf39.jpg 800w, /Chiba-dev/p/jdbcbook/preview_hu_983b62ab55740877.jpg 1600w"
+                        width="800" 
+                        height="800" 
+                        loading="lazy"
+                        alt="Featured image of post JDBCBook" />
+                
+            </a>
+        </div>
+    
 
     <div class="article-details">
     
@@ -253,7 +306,105 @@
     
     
     <h1 id="jdbc常见问题">JDBC常见问题
-</h1>
+</h1><h2 id="1资源的管理">1.资源的管理
+</h2><p>在使用jdbc的相关资源时，比如Connection、PreparedStatement、ResultSet，使用完毕后，要及时关闭这些资源以<code>释放数据库服务器资源</code>和<code>避免内存泄露</code>等问题。</p>
+<p><img src="/Chiba-dev/p/jdbcbook/One.png"
+	width="1196"
+	height="548"
+	srcset="/Chiba-dev/p/jdbcbook/One_hu_fa773371a2df5bc1.png 480w, /Chiba-dev/p/jdbcbook/One_hu_8b70772aecbb8827.png 1024w"
+	loading="lazy"
+	
+		alt="项目Logo"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="218"
+		data-flex-basis="523px"
+	
+></p>
+<h2 id="2sql问题">2.SQL问题
+</h2><h3 id="21-sql语句问题">2.1 SQL语句问题：
+</h3><ul>
+<li>java.sql.SQLSyntaxErrorException</li>
+</ul>
+<p><img src="/Chiba-dev/p/jdbcbook/SQLYJ.png"
+	width="620"
+	height="312"
+	srcset="/Chiba-dev/p/jdbcbook/SQLYJ_hu_fca3d3dc41d3d7e.png 480w, /Chiba-dev/p/jdbcbook/SQLYJ_hu_db94bae94a04fe8d.png 1024w"
+	loading="lazy"
+	
+		alt="项目Logo"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="198"
+		data-flex-basis="476px"
+	
+></p>
+<blockquote>
+<p>java.sql.SQLSyntaxErrorException：SQL语句错误异常，一般有几种可能：</p></blockquote>
+<blockquote>
+<p>1.<code>SQL语句错误</code>，检查SQL语句，建议SQL语句在SQL工具(navicat、dataGrip)中测试后再赋值到java程序中。</p></blockquote>
+<blockquote>
+<p>2.连接数据库的URL中，<code>数据库名称编写错误</code>，也会报该异常。</p></blockquote>
+<h3 id="22-sql语句未设置参数问题">2.2 SQL语句未设置参数问题
+</h3><ul>
+<li>java.sql.SQLException: No value specified for parameter 1</li>
+</ul>
+<p><img src="/Chiba-dev/p/jdbcbook/SQLCS.png"
+	width="661"
+	height="204"
+	srcset="/Chiba-dev/p/jdbcbook/SQLCS_hu_cc131d90fcb9af12.png 480w, /Chiba-dev/p/jdbcbook/SQLCS_hu_2943a2d5fac6c099.png 1024w"
+	loading="lazy"
+	
+		alt="项目Logo"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="324"
+		data-flex-basis="777px"
+	
+></p>
+<blockquote>
+<p>在用预编译SQL语句时，如果有<code>?占位符</code>，要为每一个占位符赋值，否则报该错误。</p></blockquote>
+<h3 id="23-用户名或密码错误">2.3 用户名或密码错误
+</h3><p><img src="/Chiba-dev/p/jdbcbook/SQLYM.png"
+	width="644"
+	height="148"
+	srcset="/Chiba-dev/p/jdbcbook/SQLYM_hu_246fb92c245ff24c.png 480w, /Chiba-dev/p/jdbcbook/SQLYM_hu_3152cc16fb938fdf.png 1024w"
+	loading="lazy"
+	
+		alt="项目Logo"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="435"
+		data-flex-basis="1044px"
+	
+></p>
+<blockquote>
+<p>在连接数据库时，如果<code>用户名或密码输入错误</code>，也会报SQLException，容易混淆，看清异常后面原因描述</p></blockquote>
+<h3 id="24通信异常">2.4通信异常
+</h3><ul>
+<li>com.mysql.cj.jdbc.exceptions.CommunicationsException:Communications link failure</li>
+</ul>
+<h3 id="项目logo"><img src="/Chiba-dev/p/jdbcbook/SQLTX.png"
+	width="662"
+	height="153"
+	srcset="/Chiba-dev/p/jdbcbook/SQLTX_hu_6932a26b855fbbfd.png 480w, /Chiba-dev/p/jdbcbook/SQLTX_hu_b4b400bb8e3e7ff9.png 1024w"
+	loading="lazy"
+	
+		alt="项目Logo"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="432"
+		data-flex-basis="1038px"
+	
+>
+</h3><blockquote>
+<p>在连接数据库URL时，如果IP端口或端口写错了，会报以上异常</p></blockquote>
+
 </section>
 
 

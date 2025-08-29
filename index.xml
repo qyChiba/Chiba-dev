@@ -23,7 +23,7 @@
 	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/TM_hu_9110bcd58182c3b6.png 480w, https://qyChiba.github.io/Chiba-dev/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/TM_hu_648596158c975fa6.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;TM&#34;
+		alt=&#34;题目&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -217,7 +217,7 @@
 	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/CW_hu_141f68a735279246.png 480w, https://qyChiba.github.io/Chiba-dev/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/CW_hu_1557e037c9b917ef.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;CW&#34;
+		alt=&#34;错误截图&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -265,7 +265,7 @@
 	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/ZQ_hu_4824db0284b0ad55.png 480w, https://qyChiba.github.io/Chiba-dev/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/ZQ_hu_8d2351eec97390e5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;ZQ&#34;
+		alt=&#34;正确截图&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -874,7 +874,7 @@
 	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/One_hu_fa773371a2df5bc1.png 480w, https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/One_hu_8b70772aecbb8827.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;One&#34;
+		alt=&#34;关闭资源&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -893,7 +893,7 @@
 	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLYJ_hu_fca3d3dc41d3d7e.png 480w, https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLYJ_hu_db94bae94a04fe8d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;SQLYJ&#34;
+		alt=&#34;SQLSyntaxErrorException&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -917,7 +917,7 @@
 	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLCS_hu_cc131d90fcb9af12.png 480w, https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLCS_hu_2943a2d5fac6c099.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;SQLCS&#34;
+		alt=&#34;No value specified for parameter 1&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -934,7 +934,7 @@
 	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLYM_hu_246fb92c245ff24c.png 480w, https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLYM_hu_3152cc16fb938fdf.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;SQLYM&#34;
+		alt=&#34;name or password&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -948,13 +948,13 @@
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;com.mysql.cj.jdbc.exceptions.CommunicationsException:Communications link failure&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;sqltx&#34;&gt;&lt;img src=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLTX.png&#34;
+&lt;h3 id=&#34;communicationsexception&#34;&gt;&lt;img src=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLTX.png&#34;
 	width=&#34;662&#34;
 	height=&#34;153&#34;
 	srcset=&#34;https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLTX_hu_6932a26b855fbbfd.png 480w, https://qyChiba.github.io/Chiba-dev/p/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/SQLTX_hu_b4b400bb8e3e7ff9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;SQLTX&#34;
+		alt=&#34;CommunicationsException&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
